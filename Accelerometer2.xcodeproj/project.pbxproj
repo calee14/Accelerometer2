@@ -15,6 +15,7 @@
 		B31DC56E1F06D54200470BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31DC56C1F06D54200470BED /* Main.storyboard */; };
 		B31DC5701F06D54200470BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31DC56F1F06D54200470BED /* Assets.xcassets */; };
 		B31DC5731F06D54200470BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31DC5711F06D54200470BED /* LaunchScreen.storyboard */; };
+		B31DC57B1F06D63D00470BED /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DC57A1F06D63D00470BED /* CGFloat+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B31DC56F1F06D54200470BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B31DC5721F06D54200470BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B31DC5741F06D54200470BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31DC57A1F06D63D00470BED /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				B31DC5641F06D54200470BED /* GameScene.sks */,
 				B31DC5661F06D54200470BED /* Actions.sks */,
 				B31DC5681F06D54200470BED /* GameScene.swift */,
+				B31DC57A1F06D63D00470BED /* CGFloat+Extensions.swift */,
 				B31DC56A1F06D54200470BED /* GameViewController.swift */,
 				B31DC56C1F06D54200470BED /* Main.storyboard */,
 				B31DC56F1F06D54200470BED /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 			files = (
 				B31DC5691F06D54200470BED /* GameScene.swift in Sources */,
 				B31DC56B1F06D54200470BED /* GameViewController.swift in Sources */,
+				B31DC57B1F06D63D00470BED /* CGFloat+Extensions.swift in Sources */,
 				B31DC5631F06D54200470BED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +320,7 @@
 				B31DC5791F06D54200470BED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
